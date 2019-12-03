@@ -3,6 +3,9 @@
 
 library(shiny)
 
+# Load data
+load("05-CreateTermFrequencies.RData", envir = .GlobalEnv)
+
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
   
